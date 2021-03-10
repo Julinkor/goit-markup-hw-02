@@ -2,8 +2,13 @@
   --main-font:"Roboto"; sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: rgba(33, 150, 243, 1);
+  --main-color-text: rgba(33, 33, 33, 1);
+  --text-color: rgba(117, 117, 117, 1);
+  --hero-background: rgba(47,48,58,1);
+  --hero-text: rgba(255,255,255,1);
+  --team-background: rgba(245,244,250,1);
+  --footer-contakts-color: rgba(255, 255, 255, 0.6);
   }
-
 .link {
   text-decoration: none;
 }
@@ -13,7 +18,9 @@
 .address {
   font-style: normal;
 }
-
+body{
+  font-family: "Roboto"; sans-serif;
+}
 /*==========HEADER===========*/
 /*=========logo========*/
 .logo{
@@ -22,90 +29,85 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color:black}
+color:var(--main-color-text)}
 .logoW{
 font-family:var(--secondary-font);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--accent-color);
 }
 .logo-white{
-color: white;
-background-color: #2F303A;
+color:var(--hero-text);
+background-color:var(--hero-background);
 }
 /*==========end logo=====*/
 
 /*========navigation========*/
 .nav-link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color-text);
  }
  .nav-link:hover,
  .nav-link:focus{
- color: #2196F3;}
+ color: var(--accent-color);}
  .active{
-  color: #2196F3;
+  color: var(--accent-color);
  }
  /*=======end navigation======*/
 
  /*=========contacts==========*/
  .contacts-item{
-font-family:var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
 }
+.contacts-header{
+color: var(--text-color);}
 .contacts-item:hover,
 .contacts-item:focus{
-color: #2196F3;
+color: var(--accent-color);
 }
 .adr-item{
-font-family:var(--main-font);
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--hero-text);
 }
 /*==============end contacts========*/
 /*==============END HEADER===============*/
 
 /*=================COMPONENTS========*/
 .title{
-font-family:var(--main-font);
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;}
+color: var(--main-color-text);}
 /*==============END COMPONENTS========*/
 
 /*===========HERO=========*/
 .hero{
- background-color: #2F303A; 
+ background-color:var(--hero-background); 
 }
 .hero-title{
-font-family:var(--main-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
-background-color: #2F303A;
+color: var(--hero-text);
+background-color: var(--hero-background);
 }
 .model-btn{
- font-family:var(--main-font);
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
@@ -114,28 +116,26 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
-background-color: #2196F3;
-color: #FFFFFF;
+background-color:var(--accent-color);
+color:var(--hero-text);
 }
 /*===========END HERO========*/
 
 /*============ADVANTAGES========*/
 .advantages{
-font-family: "Roboto"; sans-serif;
 font-weight: bold;
 font-size: 14px;
 line-height: 1.14x;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--main-color-text);
 }
 .adv-item{
-font-family: "Roboto"; sans-serif;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-color);
 }
 /*==========END ADVANTAGES===========*/
 
@@ -143,71 +143,71 @@ color: #757575;
 /*=============END EXAMPLES========*/
 
 /*================TEAM========*/
+.team{
+ background-color: var(--team-background);
+}
 .member{
-font-family:var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--main-color-text);
 }
 .memb-prof{
-font-family:var(--main-font);
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color:var(--text-color);
 }
-
 /*============END TEAM======*/
 
 /* ===========PORTFOLIO======== */
 /* =========== FILTER ======= */
-..button-filter{
-font-family:var(--main-font);
+.button-filter{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--main-color-text);
 }
 .button-filter:hover,
 .button-filter:focus{
-font-family:var(--main-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:var(--hero-text);
 background-color: var(--accent-color);
-}
+cursor: pointer;}
 /* ===========end FILTER ==== */
 
 /* ============SAPLE============== */
 .sample-subtitle{
-font-family: var(--main-font);
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color:var(--main-color-text);
 }
 .sample-tipe{
-font-family:var(--main-font);
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-color);
 }
 /* ==========END SAPLE========== */
 /* ============END PORTFOLIO */
 
 /*===============FOOTER============*/
 .page-footer {
-  background-color: #2F303A;
+  background-color: var(--hero-background);
 }
+.contacts-footer{
+  color:var(--footer-contakts-color);
+}
+/*============= END FOOTER===== */
