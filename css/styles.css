@@ -1,0 +1,213 @@
+:root{
+  --main-font:"Roboto"; sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: rgba(33, 150, 243, 1);
+  }
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: normal;
+}
+
+/*==========HEADER===========*/
+/*=========logo========*/
+.logo{
+font-family:var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:black}
+.logoW{
+font-family:var(--secondary-font);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo-white{
+color: white;
+background-color: #2F303A;
+}
+/*==========end logo=====*/
+
+/*========navigation========*/
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+ }
+ .nav-link:hover,
+ .nav-link:focus{
+ color: #2196F3;}
+ .active{
+  color: #2196F3;
+ }
+ /*=======end navigation======*/
+
+ /*=========contacts==========*/
+ .contacts-item{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contacts-item:hover,
+.contacts-item:focus{
+color: #2196F3;
+}
+.adr-item{
+font-family:var(--main-font);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+/*==============end contacts========*/
+/*==============END HEADER===============*/
+
+/*=================COMPONENTS========*/
+.title{
+font-family:var(--main-font);
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+/*==============END COMPONENTS========*/
+
+/*===========HERO=========*/
+.hero{
+ background-color: #2F303A; 
+}
+.hero-title{
+font-family:var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+.model-btn{
+ font-family:var(--main-font);
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+background-color: #2196F3;
+color: #FFFFFF;
+}
+/*===========END HERO========*/
+
+/*============ADVANTAGES========*/
+.advantages{
+font-family: "Roboto"; sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-item{
+font-family: "Roboto"; sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*==========END ADVANTAGES===========*/
+
+/*============EXAMPLES==============*/
+/*=============END EXAMPLES========*/
+
+/*================TEAM========*/
+.member{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.memb-prof{
+font-family:var(--main-font);
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*============END TEAM======*/
+
+/* ===========PORTFOLIO======== */
+/* =========== FILTER ======= */
+..button-filter{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.button-filter:hover,
+.button-filter:focus{
+font-family:var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+/* ===========end FILTER ==== */
+
+/* ============SAPLE============== */
+.sample-subtitle{
+font-family: var(--main-font);
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.sample-tipe{
+font-family:var(--main-font);
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ==========END SAPLE========== */
+/* ============END PORTFOLIO */
+
+/*===============FOOTER============*/
+.page-footer {
+  background-color: #2F303A;
+}
